@@ -58,28 +58,5 @@ class ColorPickerViewController: UIViewController, UIPickerViewDelegate, UIPicke
 //        wholeView.backgroundColor = colorPicker[row].uiColor
         return colorPicker[row].name
     }
-    
-    
-
 
 }
-
-/*
-     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-         let cell = tableView.dequeueReusableCell(withIdentifier: "colorsCell", for: indexPath)
-         
-         cell.textLabel?.text = colors[indexPath.row]
-         
-         
- //        cell.backgroundColor = UIColor.init(named: colors[indexPath.row])
-
-         
-         return cell
-     }
-
-
- }
-
-
- */
-
